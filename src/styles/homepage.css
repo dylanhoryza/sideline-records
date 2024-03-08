@@ -1,0 +1,157 @@
+.home-about-section {
+  position: relative;
+  background-color: white;
+  margin-top: 0;
+  background-image: url('../home-images/studio1.jpg');
+  width: 100%;
+  height: 1100px;
+  background-size: cover;
+}
+
+.home-container {
+ 
+  width: 100%;
+}
+
+.company-about {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-style: italic;
+  position: relative;
+  top: 25%;
+}
+
+.contact-button-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30%;
+}
+
+.home-contact {
+  width: 200px;
+  height: 40px;
+  margin-top: 60px;
+  background-color: #287b9e;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  
+}
+
+.home-contact:hover {
+  background-color: white;
+  color: black;
+}
+
+.watch-btn {
+  width: 100px;
+  height: 40px;
+  border-style: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.watch-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.title-container {
+  position: absolute; 
+  top: 85%; 
+  left: 15%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  /* background-color: rgba(41, 40, 40, 0.5); */
+  width: 500px;
+  border-radius: 20px;
+  color: white;
+}
+
+.title-container-right {
+  position: absolute; 
+  top: 85%; 
+  left: 85%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  /* background-color: rgba(41, 40, 40, 0.5); */
+  width: 500px;
+  border-radius: 20px;
+  color: white;
+}
+
+.home-services {
+  position: relative;
+  background-color: white;
+  margin-top: 0;
+  background-image: url('../home-images/studio2.jpg');
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-pricing {
+  position: relative;
+  background-color: white;
+  margin-top: 0;
+  background-image: url('../home-images/studio3.jpg');
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-portfolio {
+  position: relative;
+  background-color: white;
+  margin-top: 0;
+  background-image: url('../home-images/studio4.jpg');
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+}
+
+.icon-scroll, .icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+
+.icon-scroll {
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 85%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+}
+
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
