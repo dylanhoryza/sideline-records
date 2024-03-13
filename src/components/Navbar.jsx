@@ -56,7 +56,7 @@ const Navbar = () => {
         }} ref={menuRef}>
           <li className='background-nav-container'><Link to="/" onClick={closeMenu}>Home</Link></li>
           <li className='background-nav-container'><Link to="/services" onClick={closeMenu}>Services</Link></li>
-          <li className='background-nav-container'><Link to="/pricing" onClick={closeMenu}>Rates</Link></li>
+          <li className='background-nav-container'><Link to="/rates" onClick={closeMenu}>Rates</Link></li>
           <li className='background-nav-container'><Link to="/about" onClick={closeMenu}>About</Link></li>
           <li className='background-nav-container'><Link to="/photos" onClick={closeMenu}>Photos</Link></li>
           <li className='background-nav-container'><Link to="/contact" onClick={closeMenu}>Contact</Link></li>

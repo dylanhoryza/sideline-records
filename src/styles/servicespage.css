@@ -1,6 +1,6 @@
-body {
+/* body {
   background-color: rgb(71, 70, 70);
-}
+} */
 
 
 .about-container {
@@ -24,7 +24,7 @@ body {
 }
 
 .services-header span {
-  color: rgb(228, 202, 89);
+  color: #afb9c5;
 }
 
 .service-title {
@@ -65,7 +65,7 @@ body {
 }
 
 .image-title {
-  color: rgb(228, 202, 89);
+  color: #afb9c5;
   margin-top: 20px;
   font-style: italic;
 }
