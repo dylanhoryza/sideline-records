@@ -1,0 +1,22 @@
+.our-work-title {
+  color: white;
+  position: absolute; 
+  top: 15%; 
+  right: 37%;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.our-work-title span {
+  color: #afb9c5;
+}
+
+.spotify-boxes {
+  display: flex;
+  margin-top: 300px;
+}
+
+.spotify-player {
+  width: 600px;
+  margin-bottom: 20px;
+}
