@@ -1,6 +1,6 @@
 .home-about-section {
   position: relative;
-  background-color: white;
+  background-color: #E4E4DE;
   margin-top: 0;
   background-image: url('../home-images/studio1.jpg');
   width: 100%;
@@ -15,7 +15,7 @@
 
 .company-about {
   text-align: center;
-  color: white;
+  color: #E4E4DE;
   font-size: 36px;
   font-style: italic;
   position: relative;
@@ -33,17 +33,17 @@
   width: 200px;
   height: 40px;
   margin-top: 60px;
-  background-color: #287b9e;
+  background-color: #595f39;
   border: none;
-  color: white;
+  color: #E4E4DE;
   border-radius: 10px;
   font-size: 18px;
   
 }
 
 .home-contact:hover {
-  background-color: white;
-  color: black;
+  background-color: #E4E4DE;
+  color: #1B1B1B;
 }
 
 .watch-btn {
@@ -58,37 +58,51 @@
 }
 
 .watch-btn:hover {
-  background-color: black;
-  color: white;
+  background-color: #595f39;
+  color: #E4E4DE;
 }
 
 .title-container {
   position: absolute; 
-  top: 85%; 
+  top: 75%; 
   left: 15%; 
   transform: translate(-50%, -50%); 
   text-align: center; 
-  /* background-color: rgba(41, 40, 40, 0.5); */
+  background-color: #1B1B1B;
   width: 500px;
   border-radius: 20px;
-  color: white;
+  color: #E4E4DE;
+  
+}
+
+.section-title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.title-container span {
+  color: #595f39;
+}
+
+.title-container-right span {
+  color: #595f39;
 }
 
 .title-container-right {
   position: absolute; 
-  top: 85%; 
+  top: 75%; 
   left: 85%; 
   transform: translate(-50%, -50%); 
   text-align: center; 
-  /* background-color: rgba(41, 40, 40, 0.5); */
+  background-color: #1B1B1B;
   width: 500px;
   border-radius: 20px;
-  color: white;
+  color: #E4E4DE;
 }
 
 .home-services {
   position: relative;
-  background-color: white;
+  background-color: #E4E4DE;
   margin-top: 0;
   background-image: url('../home-images/studio2.jpg');
   width: 100%;
@@ -110,7 +124,7 @@
 
 .home-portfolio {
   position: relative;
-  background-color: white;
+  background-color: #E4E4DE;
   margin-top: 0;
   background-image: url('../home-images/studio4.jpg');
   width: 100%;
