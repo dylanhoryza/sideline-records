@@ -19,16 +19,16 @@
   text-align: center;
   font-weight: bold;
   font-size: 70px;
-  color: white;
+  color: #E4E4DE;
   margin-bottom: 40px;
 }
 
 .services-header span {
-  color: #afb9c5;
+  color: #595f39;
 }
 
 .service-title {
-  color: white;
+  color: #E4E4DE;
   position: relative;
   top: 15%;
 }
@@ -60,12 +60,12 @@
   margin-top: 5px;
   font-size: 20px;
   width: 500px;
-  color: white;
+  color: #E4E4DE;
   border-radius: 10px;
 }
 
 .image-title {
-  color: #afb9c5;
+  color: #595f39;
   margin-top: 20px;
   font-style: italic;
 }
@@ -79,7 +79,7 @@
   font-size: 18px;
   font-weight: bold;
   background-color: black;
-  color: white;
+  color: #E4E4DE;
 }
 
 .watch-btn-about:hover {

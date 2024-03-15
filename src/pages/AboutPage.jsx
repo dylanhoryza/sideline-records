@@ -30,8 +30,8 @@ export default function AboutPage() {
       </div>
       <div className='meet-the-team'>
         <div className='service-title'>
-          <h1 className='services-header'>
-            ABOUT OUR <span>FACILITY</span>
+          <h1 className='team-header'>
+            ABOUT OUR <span className='our-team-span'>FACILITY</span>
           </h1>
         </div>
         <div className='container'>
