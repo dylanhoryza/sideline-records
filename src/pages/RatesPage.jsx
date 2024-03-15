@@ -28,7 +28,7 @@ export default function RatesPage() {
       <div className='rates-title'>
           <h1 className='rates-header'>OUR <span>RATES</span></h1>
         </div>
-      <div className="container">
+      <div className="container rates-container">
       
       <div className='row'>
       {[0].map((index) => (
